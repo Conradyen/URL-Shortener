@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+.App {
+  text-align: center;
+  background-color: #f4f4f4;
+  height: 1hv;
+  font-family: "Anton", sans-serif;
+}
+.html {
+  text-align: center;
+  background-color: #f4f4f4;
+  height: 1hv;
+}
+
+.copied {
+  animation: fade-in-keyframes 1s;
+}
+@keyframes fade-in-keyframes {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
