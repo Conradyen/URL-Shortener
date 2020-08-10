@@ -1,0 +1,31 @@
+{
+  "name": "url-shortener-rest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js ",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm start\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "get-urls": "^9.2.1",
+    "mongoose": "^5.9.27",
+    "puppeteer": "^5.2.1",
+    "puppeteer-extra": "^3.1.13",
+    "puppeteer-extra-plugin-stealth": "^2.4.15",
+    "request": "^2.88.2",
+    "shortid": "^2.2.15",
+    "util": "^0.12.3",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  },
+  "description": ""
+}
